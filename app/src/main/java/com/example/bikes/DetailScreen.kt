@@ -8,15 +8,14 @@ import androidx.compose.material3.Text
 import androidx.compose.runtime.Composable
 import androidx.compose.ui.Alignment
 import androidx.compose.ui.Modifier
-import androidx.compose.ui.input.pointer.PointerIcon.Companion.Text
 import androidx.compose.ui.text.TextStyle
 import androidx.compose.ui.text.font.FontWeight
 import androidx.compose.ui.unit.dp
 import androidx.compose.ui.unit.sp
-import com.example.bikes.main.Bicicleta
+import androidx.navigation.NavHostController
 
 @Composable
-fun DetailScreen(bicicleta: Bicicleta, text: String, text2: String, text3: String, text4: String) {
+fun DetailScreen(bicicleta: NavHostController, text: String, text2: String, text3: String, text4: String) {
     Box(
         modifier = Modifier.fillMaxSize(),
         contentAlignment = Alignment.Center

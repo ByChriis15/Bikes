@@ -28,7 +28,7 @@ import androidx.navigation.NavHostController
 
 @OptIn(ExperimentalMaterial3Api::class)
 @Composable
-fun MainScreen(viewModel: MainViewModel, navController: NavHostController) {
+fun MainScreen(viewModel: NavHostController, navController: MainViewModel) {
     val marca = remember { mutableStateOf("") }
     val modelo = remember { mutableStateOf("") }
     val color = remember { mutableStateOf("") }

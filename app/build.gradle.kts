@@ -6,7 +6,7 @@ plugins {
 
 android {
     namespace = "com.example.bikes"
-    compileSdk = 33
+    compileSdk = 34
 
     defaultConfig {
         applicationId = "com.example.bikes"
@@ -70,7 +70,5 @@ dependencies {
     implementation ("androidx.room:room-ktx:2.4.1")
     implementation("androidx.lifecycle:lifecycle-viewmodel-compose:1.0.0-alpha07")
     implementation ("androidx.lifecycle:lifecycle-livedata-ktx:2.3.1")
-
-
-
+    implementation ("androidx.navigation:navigation-compose:2.4.0-alpha10")
 }
